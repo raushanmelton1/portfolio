@@ -274,7 +274,7 @@ padding: 20px 40px 20px 40px;
 	}
 }
 /*ipad tablet */
-@media screen and (min-width: 760px){
+@media screen and /*(min-width: 760px) and*/ (max-width: 1245px){
 	nav ul {
 		flex-direction: column;
 		justify-content: center;
