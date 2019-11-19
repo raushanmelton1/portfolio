@@ -265,16 +265,9 @@ padding: 20px 40px 20px 40px;
 .container4 img:hover{
        filter: grayscale(100%) drop-shadow(8px 8px 8px #c12258);
 }
-/*full screen*/
-@media screen and (min-width: 1245px){
-	.container{
-		display: grid; 
-		grid-template-columns: 1fr 1fr; 
-		text-align:center;
-	}
-}
+
 /*ipad tablet */
-@media screen and /*(min-width: 760px) and*/ (max-width: 1245px){
+@media screen and (min-width: 760px) and (max-width: 1245px){
 	nav ul {
 		flex-direction: column;
 		justify-content: center;
@@ -308,6 +301,8 @@ padding: 20px 40px 20px 40px;
 		flex-direction: column;
 		min-height: 100vh;
 		text-align: center;
+		align-items: end;
+		justify-content: left;
 	}
 	h2{
 		padding-top:1px;
@@ -356,7 +351,14 @@ padding: 20px 40px 20px 40px;
 	grid-template-columns: 1fr;
 	}
 }
-
+/*full screen*/
+@media screen and (min-width: 1245px){
+	.container{
+		display: grid; 
+		grid-template-columns: 1fr 1fr; 
+		text-align:center;
+	}
+}
 @media screen and (prefers-reduced-motion: reduce) { 
 	.slide-in-left {
 	-webkit-animation: slide-in-left 0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
