@@ -301,6 +301,8 @@ padding: 20px 40px 20px 40px;
 		flex-direction: column;
 		min-height: 100vh;
 		text-align: center;
+		align-items: end;
+		justify-content: left;
 	}
 	h2{
 		padding-top:1px;
